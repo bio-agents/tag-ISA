@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbagents.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28DB8907-4FBB-EC72-7D6E-F68F5557819D" name="Protocol">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-10 16:52:52 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbagents.crest.model.design.logical.Attribute">
+<Attribute name="PType" id="EDA3483C-3B4D-381A-A2F9-B0EF6AEDC2A4">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-10 16:54:32 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="58969D26-C5FF-82E2-803D-63F4BF71906D">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-10 16:53:01 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="76363AA3-B3B5-22AB-DF5C-12E56536F5E5">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-10 16:53:52 UTC</createdTime>
+<generatorID>CD293595-DC77-EE31-9A6B-F600FDC7F9F9</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<referedAttribute>70456A7B-6FD1-BBEE-0683-6D34F3B57B0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbagents.crest.model.design.logical.CandidateKey">
+<identifier id="1D8AAE7B-02C9-B964-8AC7-B0E5D7EBC249" name="Type">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-10 16:54:09 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EDA3483C-3B4D-381A-A2F9-B0EF6AEDC2A4,CD293595-DC77-EE31-9A6B-F600FDC7F9F9</newElementsIDs>
+<usedAttributes>
+<attributeRef>EDA3483C-3B4D-381A-A2F9-B0EF6AEDC2A4</attributeRef>
+<attributeRef>76363AA3-B3B5-22AB-DF5C-12E56536F5E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

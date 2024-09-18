@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbagents.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1E0F45F-7C27-ADAC-6770-CD087FC84F3C" containerWithKeyObject="5DC65DD9-843F-8011-EAAF-8FB615296605" localFKIndex="DA53AF17-6A81-6A78-4124-F77A5A4FDD75" name="Protocol_Token_Protocol_FK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>307FE56B-E6CB-BB20-F11C-A9F19686E2DE</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F4CA1E8-205F-10AA-C216-5B1CFB55A90E</referredTableID>
+<keyObject>37EDF4CD-018F-F3F2-116B-2E51992164F7</keyObject>
+<referredKeyID>37EDF4CD-018F-F3F2-116B-2E51992164F7</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbagents.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D5AF14C-B1AE-AC20-8B4E-6882221AD111" name="Tag">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:10:53 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbagents.crest.model.design.logical.Attribute">
+<Attribute name="Label" id="A1DA16FE-552E-6D97-B272-4A910EB6F38B">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:10:57 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Text" id="F003D910-DAF0-21AA-EE19-64E44CD5EFB4">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:10:58 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbagents.crest.model.design.logical.CandidateKey">
+<identifier id="EE374181-9EC8-372F-4B20-2A3AE08E79E6" name="Label">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:11:31 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A1DA16FE-552E-6D97-B272-4A910EB6F38B</newElementsIDs>
+<usedAttributes>
+<attributeRef>A1DA16FE-552E-6D97-B272-4A910EB6F38B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

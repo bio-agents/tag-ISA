@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbagents.crest.model.design.logical.LogicalDesign" name="Logical" id="2B336F68-49ED-CA46-3EF6-7D8DD072A540" mainViewID="976A1B79-27EB-90E3-A3DD-20E8F9C1B9C6">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 08:58:56 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

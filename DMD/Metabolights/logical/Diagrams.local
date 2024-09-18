@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbagents.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="976A1B79-27EB-90E3-A3DD-20E8F9C1B9C6" name="Logical" visible="true"/>
+</oracle.dbagents.crest.model.design.logical.LogicalDesign>

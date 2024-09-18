@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbagents.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DC65DD9-843F-8011-EAAF-8FB615296605" name="Protocol_Token">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>88D5B6C6-765D-8953-2130-8F3947D0E958</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbagents.crest.model.design.relational.Column">
+<Column name="Word" id="7E551F95-2EE0-1CAE-9D5D-0DAE50270AA5">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>DCC40C84-E302-0D31-39D0-84416A771910</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Protocol_PType" id="E7F7887B-4DA4-7A09-F745-74F1DD361CD7">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>070DEE60-7430-3E2E-1798-C111738F6747</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E0F45F-7C27-ADAC-6770-CD087FC84F3C" referredColumn="F8F8DB12-A711-251D-182D-67E2CFC1A7FA"/>
+</associations>
+</Column>
+<Column name="Protocol_Study_ID" id="922E850F-1CC8-E60E-0203-1A803F608529">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>63CF0809-12A5-F8AB-E4F1-F0D1E6FB1F09</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E0F45F-7C27-ADAC-6770-CD087FC84F3C" referredColumn="232BC68C-5B04-C25B-DB11-686441D7C5C5"/>
+</associations>
+</Column>
+<Column name="Position" id="58E9B6B9-FF3A-C106-73B2-80A73798BBFB">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>25F5CD48-28FA-B17C-6F89-AF3CF3800983</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbagents.crest.model.design.relational.Index">
+<ind_PK_UK id="86319967-B781-6BD2-6DCE-2260833CFBD7" name="Protocol_Token_PK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>B9AA9AFB-2893-221C-07E2-9E7C351AC21F</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E551F95-2EE0-1CAE-9D5D-0DAE50270AA5"/>
+<colUsage columnID="E7F7887B-4DA4-7A09-F745-74F1DD361CD7"/>
+<colUsage columnID="922E850F-1CC8-E60E-0203-1A803F608529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA53AF17-6A81-6A78-4124-F77A5A4FDD75" name="Protocol_Token_Protocol_FK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>307FE56B-E6CB-BB20-F11C-A9F19686E2DE</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F7887B-4DA4-7A09-F745-74F1DD361CD7"/>
+<colUsage columnID="922E850F-1CC8-E60E-0203-1A803F608529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

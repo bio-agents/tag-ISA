@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbagents.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3BCAD07-EB72-5B4F-6A7C-ADE4817A05C7" name="has_tag">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbagents.crest.model.design.relational.Column">
+<Column name="Protocol_PType" id="D86F2D0E-0E95-832F-82E3-1DD963B56700">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5831E97B-9F79-9AF1-2F71-183133995467" referredColumn="F8F8DB12-A711-251D-182D-67E2CFC1A7FA"/>
+</associations>
+</Column>
+<Column name="Protocol_Study_ID" id="0A71C61A-1A24-2344-ECB7-A954BB0E1E09">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5831E97B-9F79-9AF1-2F71-183133995467" referredColumn="232BC68C-5B04-C25B-DB11-686441D7C5C5"/>
+</associations>
+</Column>
+<Column name="Tag_Label" id="7F3198C7-119A-4088-304E-4AD4BB6DAA04">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C8CCF4-0D24-DE0B-A8DB-54CEEDF8BF73" referredColumn="D988B07D-ABE5-EDC9-7CDC-68708077A21B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbagents.crest.model.design.relational.Index">
+<ind_PK_UK id="E4E23E24-C523-1A41-1964-0845F78E3E78" name="has_tag_PK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D86F2D0E-0E95-832F-82E3-1DD963B56700"/>
+<colUsage columnID="0A71C61A-1A24-2344-ECB7-A954BB0E1E09"/>
+<colUsage columnID="7F3198C7-119A-4088-304E-4AD4BB6DAA04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F580E41C-35DD-D1DD-3798-AF6959E48343" name="FK_ASS_27">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>48255158-585A-5F5F-D1DF-FE88BE10F0C4</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D86F2D0E-0E95-832F-82E3-1DD963B56700"/>
+<colUsage columnID="0A71C61A-1A24-2344-ECB7-A954BB0E1E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC3F982-4BA8-23B8-E405-B475436A0773" name="FK_ASS_28">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>48255158-585A-5F5F-D1DF-FE88BE10F0C4</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F3198C7-119A-4088-304E-4AD4BB6DAA04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

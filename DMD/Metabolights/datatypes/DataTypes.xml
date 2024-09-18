@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbagents.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="6ADD20CE-E627-0294-846D-91698B7A3244" mainViewID="25B85C16-F09B-E85C-71E7-ECBFA8B14770">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 08:58:56 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<collectionOfRefsPrefix>array_ref_</collectionOfRefsPrefix>
+<collectionPrefix>array_</collectionPrefix>
+<defaultArrayLimit>10</defaultArrayLimit>
+<defaultCollectionType_Kind>ARRAY</defaultCollectionType_Kind>
+<defaultCollectionType_Suffix>_Array</defaultCollectionType_Suffix>
+<embeddedStructuredTypePrefix>inst_</embeddedStructuredTypePrefix>
+<referencePrefix>ref_</referencePrefix>
+<useRoleInAssociationEndAsName>true</useRoleInAssociationEndAsName>
+</DataTypesDesign>

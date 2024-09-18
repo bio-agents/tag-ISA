@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbagents.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12641756-4A4D-F26A-F0EB-8D3ABF75E418" name="Tag">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>4D5AF14C-B1AE-AC20-8B4E-6882221AD111</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbagents.crest.model.design.relational.Column">
+<Column name="Label" id="D988B07D-ABE5-EDC9-7CDC-68708077A21B">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>A1DA16FE-552E-6D97-B272-4A910EB6F38B</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text" id="5F603937-D729-F063-33A8-1561F8BAC11D">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>F003D910-DAF0-21AA-EE19-64E44CD5EFB4</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbagents.crest.model.design.relational.Index">
+<ind_PK_UK id="0C40AAF7-9D23-12B9-BF57-0977E90BFE46" name="Tag_PK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>EE374181-9EC8-372F-4B20-2A3AE08E79E6</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D988B07D-ABE5-EDC9-7CDC-68708077A21B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFD26131-EC63-88C8-C94A-B28B1B0B1148" name="has_tag">
+<createdBy>Erik</createdBy>
+<createdTime>2016-04-17 18:13:28 UTC</createdTime>
+<generatorID>48255158-585A-5F5F-D1DF-FE88BE10F0C4</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

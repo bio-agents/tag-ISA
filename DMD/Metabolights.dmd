@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbagents.crest.model.design.Design" name="Metabolights" id="FFFD2787-23BE-B955-5C0D-0F3D5760DFC4" version="3.5">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 08:58:56 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FFFD2787-23BE-B955-5C0D-0F3D5760DFC4</designId>
+</OSDM_Design>

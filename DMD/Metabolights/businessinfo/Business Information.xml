@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbagents.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="157A3FD6-6F0A-4345-8AC4-8006AA1B1FAF">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 08:58:56 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

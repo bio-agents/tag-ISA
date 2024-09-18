@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbagents.crest.model.design.process.ProcessModel" name="Process Model" id="755FB919-7366-902C-78E3-83353D6AE166">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 08:58:56 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

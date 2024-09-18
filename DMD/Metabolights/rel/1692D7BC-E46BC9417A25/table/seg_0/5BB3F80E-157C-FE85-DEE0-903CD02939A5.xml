@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbagents.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BB3F80E-157C-FE85-DEE0-903CD02939A5" name="Study">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>3465EA2E-CF12-15FE-BF43-A6679B3F6030</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbagents.crest.model.design.relational.Column">
+<Column name="ID" id="2C332123-7F89-0CAD-52A3-4ABFA1A0B81F">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>70456A7B-6FD1-BBEE-0683-6D34F3B57B0F</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISA-Tab_Accession" id="F92C0DB9-908F-6B32-2B77-D2705BC775AC">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>158BEAC4-54B7-1BF5-BE27-34BD2886E49D</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C610C23B-C630-2505-8C16-D1F137B52D82" referredColumn="61E60D28-ADAA-4F59-8E07-67BC60E74829"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbagents.crest.model.design.relational.Index">
+<ind_PK_UK id="2D263AA4-D79B-7FE1-453E-66C26876BBF9" name="Study_PK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>08BAB963-463F-B523-74BD-4B5BB1A1ED56</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C332123-7F89-0CAD-52A3-4ABFA1A0B81F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D659279F-FC38-86E8-8CEF-88E034173E03" name="Study_ISA-Tab_FK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>99E67B82-44F8-0D00-4D47-9575D7B9E92E</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F92C0DB9-908F-6B32-2B77-D2705BC775AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

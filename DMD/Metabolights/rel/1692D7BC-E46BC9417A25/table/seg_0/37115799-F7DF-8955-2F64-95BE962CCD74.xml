@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbagents.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37115799-F7DF-8955-2F64-95BE962CCD74" name="has_keyword">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbagents.crest.model.design.relational.Column">
+<Column name="Protocol_PType" id="3E9EA5AA-F544-77AE-FE1F-6605AE6B40EF">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2367E84-8DE6-C7C0-4C84-B8369E00B20A" referredColumn="F8F8DB12-A711-251D-182D-67E2CFC1A7FA"/>
+</associations>
+</Column>
+<Column name="Protocol_Study_ID" id="F97E44A5-C3F3-63DE-5F4B-F30758C99F13">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2367E84-8DE6-C7C0-4C84-B8369E00B20A" referredColumn="232BC68C-5B04-C25B-DB11-686441D7C5C5"/>
+</associations>
+</Column>
+<Column name="Keyword_Label" id="569D1441-8651-B8B2-4C40-9A7CD4923A8D">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31A82512-689B-2C05-0A44-9051887C9E3F" referredColumn="B9ABA28B-7CEC-0996-90DD-4EC4B35BE056"/>
+</associations>
+</Column>
+<Column name="Keyword_ISA-Tab_Accession" id="C517A68A-26AD-C4A2-5E35-FEFDB2D3EE32">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31A82512-689B-2C05-0A44-9051887C9E3F" referredColumn="EFC7CADB-429D-76C5-DD14-EBD5F26535B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbagents.crest.model.design.relational.Index">
+<ind_PK_UK id="56AFD91B-B000-47FC-422C-C2F38F34C5EB" name="has_keyword_PK">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9EA5AA-F544-77AE-FE1F-6605AE6B40EF"/>
+<colUsage columnID="F97E44A5-C3F3-63DE-5F4B-F30758C99F13"/>
+<colUsage columnID="569D1441-8651-B8B2-4C40-9A7CD4923A8D"/>
+<colUsage columnID="C517A68A-26AD-C4A2-5E35-FEFDB2D3EE32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="025A9E76-5866-A30C-A5A8-E63260F09F2C" name="FK_ASS_23">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>3814FE48-8094-1F57-6279-8A3B20D454E7</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9EA5AA-F544-77AE-FE1F-6605AE6B40EF"/>
+<colUsage columnID="F97E44A5-C3F3-63DE-5F4B-F30758C99F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6663D596-B384-CDE2-44E8-A53533D4978A" name="FK_ASS_24">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-11 21:43:46 UTC</createdTime>
+<generatorID>3814FE48-8094-1F57-6279-8A3B20D454E7</generatorID>
+<ownerDesignName>Metabolights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569D1441-8651-B8B2-4C40-9A7CD4923A8D"/>
+<colUsage columnID="C517A68A-26AD-C4A2-5E35-FEFDB2D3EE32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

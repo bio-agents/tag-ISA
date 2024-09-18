@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbagents.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="CD293595-DC77-EE31-9A6B-F600FDC7F9F9">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-10 16:53:52 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<sourcePk>08BAB963-463F-B523-74BD-4B5BB1A1ED56</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3465EA2E-CF12-15FE-BF43-A6679B3F6030</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28DB8907-4FBB-EC72-7D6E-F68F5557819D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

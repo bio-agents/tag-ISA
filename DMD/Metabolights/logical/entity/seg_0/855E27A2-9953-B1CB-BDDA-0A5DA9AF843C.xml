@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbagents.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="855E27A2-9953-B1CB-BDDA-0A5DA9AF843C" name="Keyword">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:26:26 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbagents.crest.model.design.logical.Attribute">
+<Attribute name="Label" id="64AA1823-60FD-8844-ABF1-0B6A80446D06">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:26:34 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Text" id="26BC4740-E135-85A0-AE7F-279966637E47">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:26:42 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbagents.crest.model.design.logical.CandidateKey">
+<identifier id="36A347B6-24B3-94AE-E25B-49368D6D98D0" name="Label">
+<createdBy>Erik</createdBy>
+<createdTime>2016-02-08 09:26:40 UTC</createdTime>
+<ownerDesignName>Metabolights</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1692D7BC-792A-B84E-8699-E46BC9417A25" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>64AA1823-60FD-8844-ABF1-0B6A80446D06</newElementsIDs>
+<usedAttributes>
+<attributeRef>64AA1823-60FD-8844-ABF1-0B6A80446D06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
